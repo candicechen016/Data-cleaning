@@ -31,7 +31,7 @@ https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version
 7. Drop unrelated columns.
 
 **Teamwork:**
-* Each member propose some datasets then we chose one of them as our subject after discussion.
+* Each member proposed some datasets then we chose one of them as our subject after discussion.
 * Briefly checked the dataset by columns. Meanwhile, everyone came up some questions that lead to what information we need to analyze and how to get them from this dataset.
 * Created subset of the dataset by countries and each member took one of them to clean with their preferreble tools.
 
