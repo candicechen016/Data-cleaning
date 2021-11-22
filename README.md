@@ -2,19 +2,29 @@
  
 This is a group project of the IS 537 data cleaning course in Fall 2021 at UIUC. 
 
+## 
+
+
+## Project Description
   
+_Starbucks now operates more than 28,289 retail stores in 49 countries. This dataset includes a record for every Starbucks or subsidiary store location currently in operation as of Nov 2021.  _
+
 **Dataset source:**  
 https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version 
-  
-Starbucks now operates more than 28,289 retail stores in 49 countries. This dataset includes a record for every Starbucks or subsidiary store location currently in operation as of Nov 2021.  
 
-**We tried to analyzed these topics from this dataset:**
+**Pre-processing:**
+* Download the dataset and sorted rows by country names. 
+* Choose The Group of Seven (G7) as our anlysis subjects, which are United States, Canada, France, Germany, Italy, and Japan. 
+* Remove the rest of countries and add a new column as index considering for better seperating work to memeber, and for convenience to avoid wrong sequence at the time combining agian. 
+* The output for our members to process is startbucks_new2.csv.
+
+**We tried to analyzed these topics from the dataset:**
 1. What is the average opening hours in major cities?
 2. Ownership type differences?
 3. What is the closed days for branches in the same time zone?
 
 **Major cleaning tasks:**
-1. Filter countries into subset. We choose The Group of Seven (G7) as our anlyze subjects, which are United States, Canada, France, Germany, Italy, and Japan.
+1. Filter countries into subset. 
 2. Split the "schedule" column into 7 days then fill in opening and closed hours as values.
 3. Processing uppercase and lowercase strings in "city" and "countrySubdivisionCode" column.   
 4. Split the "olsonTimeZoneId" column into GMT and its region.
@@ -30,5 +40,6 @@ Starbucks now operates more than 28,289 retail stores in 49 countries. This data
 **My part:**
 * This Notebook contains Japan and part of US. We combined cleaned parts in another tool.
 * Uesd Python as major cleaning tool. Used Excel for the final step of correcting some typos in Japanese city names.
+* More detailed processing steps documented in the Jupyter notebook file, IS537 Data Cleaning Final Project.ipynb.*
+* The tidy version of my part is startbucks_jp_us2132_cleaned.csv.
 
-**More detailed processing steps documented in the Jupyter notebook file, IS537 Data Cleaning Final Project.ipynb.**
