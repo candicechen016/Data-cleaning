@@ -41,5 +41,5 @@ https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version
 * This Notebook contains Japan and part of US. We combined cleaned parts in another tool.
 * Uesd Python as major cleaning tool. Used Excel for the final step of correcting some typos in Japanese city names.
 * More detailed processing steps documented in the Jupyter notebook file, IS537 Data Cleaning Final Project.ipynb.*
-* The tidy version of my part is startbucks_jp_us2132_cleaned.csv.
+* My tidy version is startbucks_jp_us2132_cleaned.csv.
 
