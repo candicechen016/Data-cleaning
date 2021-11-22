@@ -7,7 +7,7 @@ This is a group project of the IS 537 data cleaning course in Fall 2021 at UIUC.
 
 ## Project Description
   
-_Starbucks now operates more than 28,289 retail stores in 49 countries. This dataset includes a record for every Starbucks or subsidiary store location currently in operation as of Nov 2021.  _
+*Starbucks now operates more than 28,289 retail stores in 49 countries. This dataset includes a record for every Starbucks or subsidiary store location currently in operation as of Nov 2021.*
 
 **Dataset source:**  
 https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version 
