@@ -34,11 +34,11 @@ https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version
 * Each member proposed some datasets then we chose one of them as our subject after discussion.
 * Briefly checked the dataset by columns. Meanwhile, everyone came up with some questions that lead to what information we need to analyze and how to get them from this dataset.
 * Created subset of the dataset by countries and each member took one of them to clean with their preferred tools.
+* _starbucks_final_tidy.csv_ is the final tidy version dataset combined with all members' subsets
 
 **My part:**
 * This Notebook contains Japan and part of the US. We combined cleaned parts in another tool.
 * Used Python as a major cleaning tool. Used Excel for the final step of correcting some typos in Japanese city names.
 * More detailed processing steps documented in the Jupyter notebook file, cleaning_process.ipynb.
-* My tidy version is startbucks_jp_us2132_cleaned.csv.
-* Final combined tidy data set is starbucks_final_tidy.csv.
+* My tidy version is _startbucks_jp_us2132_cleaned.csv_.
 
