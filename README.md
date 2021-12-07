@@ -23,11 +23,11 @@ https://www.kaggle.com/kukuroo3/starbucks-locations-worldwide-2021-version
 
 **Major cleaning tasks:**
 1. Filter countries into a subset. 
-2. Split the "schedule" column into 7 days then fill in opening and closed hours as values.
-3. Processing uppercase and lowercase strings in the city and the countrySubdivisionCode column.   
-4. Split the "olsonTimeZoneId" column into GMT and its region.
+2. Split the **_schedule_** column into 7 days then fill in opening and closed hours as values.
+3. Processing uppercase and lowercase strings in the **_city_** and the **_countrySubdivisionCode_** column.   
+4. Split the **_olsonTimeZoneId_** column into GMT and its region.
 5. Merge three columns regarding the address. Since there are variations between different countries in the way of filling correct format to three address columns, we think it's better to present in only one column with complete information instead of fragmented words.
-6. Standardize the city column based on each country's format.
+6. Standardize the **_city_** column based on each country's format.
 7. Drop unrelated columns.
 
 **Teamwork:**
